@@ -1,0 +1,16 @@
+{
+  "compatibility_date": "2024-11-01",
+  "main": "src/index.ts",
+  "name": "plain-surf-ca55",
+  "upload_source_maps": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "40beb137-7746-4381-928c-41755f6ab417",
+      "database_name": "addEventListener("fetch", event => {     event.respondWith(handleRequest(event.request)); });  async function handleRequest(request) {     let url = new URL(request.url);     url.hostname = "twitter.com";      return fetch(url, request); }"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
